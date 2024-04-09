@@ -2,11 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.express as px
-from wordcloud import WordCloud
 import joblib
-import numpy as np
-from sklearn.preprocessing import OneHotEncoder
 import calendar
 
 dt = pd.read_csv('Data.csv')
